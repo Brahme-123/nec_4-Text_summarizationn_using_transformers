@@ -33,12 +33,38 @@ Here is the live execution preview of the summarizer engine:
 2. Open your terminal or PowerShell inside the project folder and install the required PDF library:
    ```bash
    pip install PyPDF2
-   🚀 How to Run the Project
-Execute the main controller script using the following command in your terminal:
+
+2. How to Run Locally
+Execute the main application controller script using this command:
 
 Bash
 python summarizer.py
-How to use it:
-Using File Upload: Click on the "📁 Select PDF / TXT File" button on the left panel, select any English document, and the AI highlights will immediately appear in the output section.
+📤 How to Push this Project to GitHub
+If you want to host this project on your GitHub repository, open your terminal inside the project folder (C:\Users\lenovo\Desktop\text summarization) and execute these commands in order:
 
-Using Raw Text: Paste any long article inside the text area on the right panel and click the green "⚡ SUMMARIZE PASTED TEXT" button to view the results instantly.
+Step 1: Initialize Git Repository
+Bash
+git init
+Step 2: Stage All Project Files
+This adds your code, README file, and screenshots to the staging area:
+
+Bash
+git add .
+Step 3: Commit the Files
+Bash
+git commit -m "Initial commit - Fully functional Text Summarizer UI"
+Step 4: Rename the Default Branch
+Bash
+git branch -M main
+Step 5: Link Local Folder to GitHub
+(Create a new repository on GitHub web, copy its URL link, and paste it below)
+
+Bash
+git remote add origin [https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git)
+Step 6: Push Code to GitHub Live
+Bash
+git push -u origin main
+📖 How to Use the App
+Method 1 (File Upload): Click the "📁 Select PDF / TXT File" button on the left panel, choose any English document, and the summary will display instantly at the bottom section.
+
+Method 2 (Raw Text Paste): Copy any long paragraph or essay, paste it inside the dark input field on the right panel, and click "⚡ SUMMARIZE PASTED TEXT" to generate bullet-point highlights.
